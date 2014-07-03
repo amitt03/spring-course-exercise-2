@@ -11,7 +11,7 @@ public class Library {
 
     private Logger logger = LoggerFactory.getLogger(Library.class);
 
-    // TODO Need to get reference to BookDao
+    // TODO Need to get reference to BookDao bean
     private BookDao bookDao;
 
     public void open() {

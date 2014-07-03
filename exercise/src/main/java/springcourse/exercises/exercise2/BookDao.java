@@ -12,7 +12,7 @@ public class BookDao {
     private Logger logger = LoggerFactory.getLogger(BookDao.class);
 
     public boolean checkConnection() {
-        logger.info("The connection is stable");
+        logger.info("The connection is stable.");
         return true;
     }
 }
