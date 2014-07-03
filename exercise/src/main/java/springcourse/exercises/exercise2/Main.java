@@ -21,8 +21,8 @@ public class Main {
 
         // TODO Retrieve the "libraryB" from the container and call close method
         // TODO Retrieve the "libB" from the container
-        // TODO Verify that the two beans are actually the same bean (use org.junit.Assert.assertEquals method)
+        // TODO Verify that the two beans are actually the same bean (may use org.junit.Assert.assertEquals method)
 
-        // TODO Verify that libraryA and LibraryB are NOT the same bean (use org.junit.Assert.assertNotEquals method);
+        // TODO Verify that libraryA and LibraryB are NOT the same bean (may use org.junit.Assert.assertNotEquals method);
     }
 }
