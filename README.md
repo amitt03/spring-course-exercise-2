@@ -1,6 +1,6 @@
 
 Exercise 2
-==========
+========== 
 
 **BookDao** class has **not** changed from the previous exercise <br/>
 **Library** class has one change, it now needs a **BookDao** instance in order to execute its logic
