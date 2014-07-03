@@ -32,5 +32,9 @@ public class Library {
     public void close() {
         logger.info("The library is now closed [{}]", this.hashCode());
     }
+    
+    public BookDao getBookDao() {
+        return bookDao;
+    }
 
 }
