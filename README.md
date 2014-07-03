@@ -2,12 +2,13 @@
 Exercise 2
 ==========
 
-0. **BookDao** has not changed from the previous exercise
-   **Library** has one change, it now needs a **BookDao** instance in order to execute its logic
+**BookDao** class has **not** changed from the previous exercise <br/>
+**Library** class has one change, it now needs a **BookDao** instance in order to execute its logic
+
 1. Create a Spring project that contains the following beans:
-    - BookDao
-    - Library with two names: *libraryA* and *libA*
-    - Library with two names: *libraryB* and *libB*
+    - **BookDao**
+    - **Library** with two names: *libraryA* and *libA*
+    - **Library** with two names: *libraryB* and *libB*
 2. Notice that **Library** is dependent on **BookDao** for its logic!
 3. Set the **Library** *open* method to be automatically executed when the library is created
    (in other words, *open* method should not be invoked by your main method code)
