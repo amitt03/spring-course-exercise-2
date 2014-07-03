@@ -24,5 +24,13 @@ public class Main {
         // TODO Verify that the two beans are actually the same bean (use org.junit.Assert.assertEquals method)
 
         // TODO Verify that libraryA and LibraryB are NOT the same bean (use org.junit.Assert.assertNotEquals method);
+        
+        // TODO Retrieve "prototypeLibrary" bean from the container
+        // TODO Retrieve another "prototypeLibrary" bean from the container
+        // TODO Verify that the two prototype beans are NOT the same bean (use org.junit.Assert.assertNotEquals method)
+        // TODO Verify that the two prototype beans are NOT the same as "libraryA" or "libraryB"
+
+        // TODO From each prototype bean fetch it's inner BookDao (add a getter inside Library code)
+        // TODO and verify that both BookDaos are actually the same bean (use org.junit.Assert.assertEquals method)
     }
 }
