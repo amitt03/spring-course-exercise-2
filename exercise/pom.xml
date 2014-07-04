@@ -9,6 +9,13 @@
     <packaging>jar</packaging>
     <name>Exercise 2</name>
     <version>1.0.0</version>
+    
+    <developers>
+        <developer>
+            <name>Amit Tal</name>
+            <email>amitt03@gmail.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <java.version>1.7</java.version>
