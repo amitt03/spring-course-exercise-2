@@ -17,6 +17,13 @@
         <slf4j.version>1.7.6</slf4j.version>
     </properties>
 
+    <developers>
+        <developer>
+            <name>Amit Tal</name>
+            <email>amitt03@gmail.com</email>
+        </developer>
+    </developers>
+
     <dependencies>
 
         <!-- Spring -->
