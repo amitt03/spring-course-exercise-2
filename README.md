@@ -8,11 +8,11 @@ Exercise 2
 1. Create a Spring project that contains the following beans:
     - **BookDao**
     - **Library** with two names: "*libraryA*" and "*libA*"
-    - **Library** with two names: "*libraryB*" and "*libB*"
-    - **Library** with **prototype scope**, and name it "*prototypeLibrary*"
+    - Another **Library** with two names: "*libraryB*" and "*libB*"
+    - Another **Library** with **prototype scope**, and name it "*prototypeLibrary*"
 2. Notice that **Library** is dependent on **BookDao** for its logic!
 3. Set the **Library** *open* method to be automatically executed when the library is created
-   (in other words, *open* method should not be invoked by your main method code)
+   (in other words, *open* method should **not** be invoked by your main method code)
 4. Inside **Main.main()** instantiate a spring container which includes the above beans, and then:
     - Retrieve "*libraryA*" bean from the container
     - Retrieve "*libA*" bean from the container
